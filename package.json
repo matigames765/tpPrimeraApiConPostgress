@@ -1,0 +1,26 @@
+{
+  "name": "tp-primera-api-rest-con-postgre",
+  "version": "1.0.0",
+  "description": "tp primera api rest con postgre sql",
+  "main": "src/app.js",
+  "scripts": {
+    "dev":"tsnd --respawn --clear src/server.ts"
+  },
+  "author": "Matias Games",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.17",
+    "prisma": "^6.7.0",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
